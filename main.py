@@ -8,7 +8,7 @@ from flask import request
 
 
 
-from controlers import LogRow, LogRunTimes
+from controllers import LogRow, LogRunTimes
 load_dotenv()
 
 app = Flask(__name__)
