@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="album py-5">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-6 box-shadow">
+            <h1 class="text-center">Job Run Times</h1>
+            <img src="/plots/LogRunTimes.png" alt="A Seaborn graph">
+          </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-6 box-shadow">
+                <h1 class="text-center">Job Run Times Per Item</h1>
+                <img src="/plots/LogRunTimesPerItem.png" alt="Another Seaborn graph">
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
