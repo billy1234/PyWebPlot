@@ -43,7 +43,7 @@
         {% for row in table: %}
         <tr 
         {% if row_link %}
-        style='cursor: pointer; cursor: hand;' onclick="window.location='data/{{table_name}}/{{row[0]}}';"
+        style='cursor: pointer; cursor: hand;' onclick="window.location.assign('/data/{{table_name}}/{{row[0]}}');"
         {% endif %}
         >
             {% for e in row: %}
