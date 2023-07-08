@@ -15,5 +15,6 @@ First setup a python virual environment
 
 The activate the env
         
-`.\pyenv\Scripts\activate.ps1`
+`.\pyenv\Scripts\Activate.ps1` (Windows)
+`./pyenv/Scripts/activate` (Unix)
 
