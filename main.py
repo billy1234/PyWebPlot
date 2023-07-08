@@ -1,10 +1,8 @@
-from flask import Flask,Response
+from flask import Flask, Response, request, render_template
 import pyodbc
 from dotenv import load_dotenv
 import os
 from waitress import serve
-from flask import render_template
-from flask import request
 
 from plots import *
 import webplots as plots
