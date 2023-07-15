@@ -23,7 +23,7 @@ The activate the env
 
 ## Database
 
-This app requies a SQL server database.
+This app has an MsSQL Server database.
 
 `initdb.sql` has the table creation + population wih some random data.
 
